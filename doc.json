@@ -1,0 +1,86 @@
+[
+    {
+      "title": "cactus",
+      "description": "Cactus plants are a popular decorating trend, but they have additional benefits beyond adding some low-maintenance greenery to your home",
+      "price": 1990,
+      "photo": "img/mikkel-bech-27v6BSNYE68-unsplash.jpg",
+      "id": 1
+    },
+    {
+      "title": "monstera adansonii",
+      "description": "Culms are 1 centimetre (0.4 in) long while leaves are 21–42 centimetres (8.3–16.5 in) long and 0.5–1 centimetre (0.2–0.4 in) wide. The fruits are 1.5–1.8 centimetres (0.6–0.7 in) long and 0.7 centimetres (0.3 in) wide.",
+      "price": 2200,
+      "photo": "img/huy-phan-6gTtlfbBGdE-unsplash.jpg",
+      "id": 2
+    },
+    {
+      "title": "aloe",
+      "description": "This Aloe and Gasteria hybrid has dark green leaves with white speckles covering them. It grows slowly, forming clumps. It forms orange flowers at varying times when grown indoors or in temperate climates.",
+      "price": 4650,
+      "photo": "img/isabela-kronemberger-VyKP21q9RZ8-unsplash.jpg",
+      "id": 3
+    },
+    {
+      "title": "monstera albo",
+      "description": "Monstera deliciosa albo-variegata is a magnificent variegated form of the species. This vine is commonly called “Split-leaf Philodendron”. The species is native to Southern Mexico and Columbia. When mature it can produce an edible fruit. This is easy to grow but the variegated form is rare and slower to propagate.",
+      "price": 4890,
+      "photo": "img/yusuf-evli-7wohsOM5Asg-unsplash.jpg",
+      "id": 4
+    },
+    {
+      "title": "echeveria",
+      "description": "Echeveria plants are rosette shaped plants of around 5cm in diameter. Echeverias often show interesting variations in colour, particularly during the cool winter months when colours can range from vibrant ruby reds to dusky pinks.",
+      "price": 440,
+      "photo": "img/victoria-strukovskaya-SyMsvnb4wbA-unsplash.jpg",
+      "id": 5
+    },
+    {
+      "title": "ficus elastica",
+      "description": "It is a large tree in the banyan group of figs, growing to 30–40 metres (98–131 ft) (rarely up to 60 metres or 200 feet) tall, with a stout trunk up to 2 metres (6.6 ft) in diameter. The trunk develops aerial and buttressing roots to anchor it in the soil and help support heavy branches.",
+      "price": 850,
+      "photo": "img/scott-webb-eA2z1JSzZFI-unsplash2.jpg",
+      "id": 6
+    },
+    {
+      "title": "monstera deliciosa",
+      "description": "It is a climbing, evergreen perennial vine that is perhaps most noted for its large perforated leaves on thick plant stems and its long cord-like aerial roots.",
+      "price": 1850,
+      "photo": "img/chris-lee-70l1tDAI6rM-unsplash.jpg",
+      "id": 7
+    },
+    {
+      "title": "peperomia",
+      "description": "Peperomia, genus of the pepper family (Piperaceae), comprising more than 1,000 species of tropical and subtropical fleshy herbs, annuals, and perennials. A few species are popular houseplants because of their attractive foliage.",
+      "price": 200,
+      "photo": "img/david-vazquez-s2JmpgGNs-g-unsplash.jpg",
+      "id": 8
+    },
+    {
+      "title": "cactus",
+      "description": "Cactus plants are a popular decorating trend, but they have additional benefits beyond adding some low-maintenance greenery to your home",
+      "price": 1750,
+      "photo": "img/element5-digital-bXSjhkDgBtM-unsplash.jpg",
+      "id": 9
+    },
+    {
+      "title": "sansevieria",
+      "description": "here is great variation within the genus, and species range from succulent desert plants such as Sansevieria pinguicula to thinner leafed tropical plants such as Sansevieria trifasciata. Plants often form dense clumps from a spreading rhizome or stolons.",
+      "price": 6290,
+      "photo": "img/nikita-kachanovsky-GY6ViMxtmDE-unsplash.jpg",
+      "id": 10
+    },
+    {
+      "title": "laurus",
+      "description": "They are slow-growing, large, evergreen aromatic shrubs or trees with alternate, ovate leaves and insignificant yellow male and female flowers borne on separate plants (dioecious). They are frost-hardy but in temperate zones they require a sheltered spot in full sun that is not subject to prolonged freezing. Plants in pots can be moved into a cold greenhouse during the winter months.",
+      "price": 150,
+      "photo": "img/jaimie-phillips-KamSS2euCzA-unsplash.jpg",
+      "id": 11
+    },
+    {
+      "title": "saguaro",
+      "description": "The saguaro is a columnar cactus that grows notable branches, usually referred to as arms. As many as 49 arms may grow on one plant. They grow from 3–16 m (9.8–52.5 ft) tall, and up to 75 cm (30 in) in diameter. They are slow growing but routinely live to 150 or 200 years old. They are the largest cactus in the United States",
+      "price": 2150,
+      "photo": "img/sabrina-mazzeo-9qxnbkfMxzc-unsplash.jpg",
+      "id": 12
+    }
+  ]
