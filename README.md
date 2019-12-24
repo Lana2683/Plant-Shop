@@ -1,8 +1,9 @@
 # Plant-Shop
-### Для запуска необходимо:
+### USAGE:
 ```
-скачать проект ->
-открыть index.html в Visual Studio Code (с установленным на него плагином Live Server) ->
-правая кнопка мыши-> 
-open with Live Server
+git clone https://github.com/Lana2683/Plant-Shop.git
+cd Plant-Shop
+npm install -g json-server
+json-server --watch doc.json
+start index.html
 ```
