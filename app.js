@@ -9,7 +9,7 @@ const carouselSlides = document.getElementById("carousel");
       plantModal = document.getElementById('plant-modal')
 
 function getPlants() {
-  fetch('doc.json')
+  fetch('http://localhost:3000/plants')
   .then(function(res){
     return res.json();
   })
@@ -82,7 +82,7 @@ function  showMenu() {
 
 // SHOW PLANT-INFO MODAL CARD
 function showCard(id) {
-  fetch('doc.json')
+  fetch('http://localhost:3000/plants')
   .then(function(res){
     return res.json();
   })
@@ -122,7 +122,7 @@ function closeCard() {
 
 // CART START
 function addInCart(id) {
-  fetch('doc.json')
+  fetch('http://localhost:3000/plants')
   .then(function(res){
     return res.json();
   })

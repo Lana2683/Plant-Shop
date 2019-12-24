@@ -1,4 +1,6 @@
-[
+{
+  "plants":
+  [
     {
       "title": "cactus",
       "description": "Cactus plants are a popular decorating trend, but they have additional benefits beyond adding some low-maintenance greenery to your home",
@@ -83,4 +85,4 @@
       "photo": "img/sabrina-mazzeo-9qxnbkfMxzc-unsplash.jpg",
       "id": 12
     }
-  ]
+  ]}
