@@ -69,15 +69,13 @@ function showSlides(n) {
 }
 // CAROUSEL END
 
-// SHOW BAR-MENU
+// SHOW AND CLOSE BAR-MENU
 function  showMenu() {
-  if (menuBar.style.display === "flex") {
-    menuBar.style.display = "none";
-    carouselSlides.style.paddingTop = "90px"
-  } else {
-    menuBar.style.display = "flex";
-    carouselSlides.style.paddingTop = "0px";
-  }
+  menuBar.style.width = "250px";
+}
+
+function closeMenu() {
+  menuBar.style.width = "0";
 }
 
 // SHOW PLANT-INFO MODAL CARD

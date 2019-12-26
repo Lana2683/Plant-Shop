@@ -1,16 +1,11 @@
 body{
     max-width: 1440px; 
     margin: auto; 
+    font-family: 'Major Mono Display', monospace;
 }
 
 /* MENU START*/
 nav {
-  font-family: 'Major Mono Display', monospace;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
   position: fixed;
@@ -20,43 +15,79 @@ nav {
 }
 
 nav a {
-  color: black;
-  text-decoration: none;
-  font-weight: bolder;
-  margin-left: 10px;
+  color: #45454d;
 }
 
 nav a:hover {
-  color:  rgb(127, 189, 66)
+  color:  rgb(127, 189, 66);
+}
+
+.menu1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  width: 100%;
+  max-width: 1440px; 
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 13px;
 }
 
 .brand {
-  font-family: 'Major Mono Display', monospace;
   font-size: 44px;
 }
 
 .bars {
   display: none;
   font-size: 38px;
-  color: #45454d;
 }
 
 .menu-bar {
-  display: none;
+  display: flex;
   flex-direction: column;
-  padding-top: 90px;
-  padding-bottom: 10px;
-  font-family: 'Major Mono Display', monospace;
-  margin-left: 20px;
+  background-color: white; 
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-.menu-bar a{
+.close-bar {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.menu-bar a {
   color: black;
   text-decoration: none;
   font-weight: bolder;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
-.menu-bar a:hover{
+.menu-bar a:hover {
   color:  rgb(127, 189, 66);
 }
 
@@ -84,10 +115,11 @@ nav a:hover {
 
 .cart {
   font-size: 22px;
-  color: #45454d;
+  text-decoration: none;
 }
 
 .badge {
+  position: absolute;
   font-weight: bolder;
   color: white;
   background-color: rgb(127, 189, 66);
@@ -101,16 +133,11 @@ nav a:hover {
   width: 100%;
   max-height: 630px;
   margin: auto;
-  font-family: 'Major Mono Display', monospace;
-}
-
-.menu {
-  padding-right: 40px;
 }
 
 /* CAROUSEL START*/
 .carousel {
-  padding-top: 90px;
+  padding-top: 120px;
   margin: auto;
 }
 
@@ -174,7 +201,8 @@ nav a:hover {
   background-color: #e4ad18;
   border-radius: 40px;
   font-size: 27px;  
-  font-weight: bold;text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
   color: white;
   text-align: center;
   max-width: 300px;
@@ -188,7 +216,6 @@ nav a:hover {
 main {
   margin: auto;
   margin-top: 180px;
-  font-family: 'Major Mono Display', monospace;
   text-align: center;
 }
 
@@ -404,7 +431,6 @@ text-decoration: none;
 
 /* MODAL CART START */
 .modal-cart {
-  font-family: 'Major Mono Display', monospace;
   display: none; 
   position: fixed; 
   z-index: 1;
@@ -529,13 +555,10 @@ text-decoration: none;
 }
 
 @media (max-width: 1050px) {
-  .cart-content{
-    width: 70%;
-  }
-}
-
-@media (max-width: 920px) {
   .menu {
+    display: none;
+  }
+  .search{
     display: none;
   }
   .bars {
@@ -556,6 +579,9 @@ text-decoration: none;
   nav {
     justify-content: space-between;
   }
+  .carousel {
+    padding-top: 90px;
+  }
   .wrapper {
     margin-top: -250px;
     margin-left: 10%;
@@ -565,6 +591,9 @@ text-decoration: none;
   }
   .prod-photo{
     width: 350px;
+  }
+  .cart-content{
+    width: 70%;
   }
 }
 
@@ -596,11 +625,5 @@ text-decoration: none;
   }
   .prod-photo{
     width: 400px;
-  }
-}
-
-@media (min-width: 140px) {
-  .menu-bar {
-    display: none;
   }
 }

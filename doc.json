@@ -84,5 +84,97 @@
       "price": 2150,
       "photo": "img/sabrina-mazzeo-9qxnbkfMxzc-unsplash.jpg",
       "id": 12
+    },
+    {
+      "title": "nepenthes rajah",
+      "description": "is a carnivorous pitcher plant species of the Nepenthaceae family. It is endemic to Mount Kinabalu and neighbouring Mount Tambuyukon in Sabah, Malaysian Borneo.",
+      "price": 2900,
+      "photo": "img/christian-fregnan-THzBS2TcTQs-unsplash.jpg",
+      "id": 13
+    },
+    {
+      "title": "rosemary",
+      "description": "is a woody, perennial herb with fragrant, evergreen, needle-like leaves and white, pink, purple, or blue flowers, native to the Mediterranean region.",
+      "price": 1090,
+      "photo": "img/vincent-foret-R8Ct7Macnus-unsplash.jpg",
+      "id": 14
+    },
+    {
+      "title": "aloe",
+      "description": "This Aloe and Gasteria hybrid has dark green leaves with white speckles covering them. It grows slowly, forming clumps. It forms orange flowers at varying times when grown indoors or in temperate climates.",
+      "price": 2350,
+      "photo": "img/galina-n-miziNqvJx5M-unsplash.jpg",
+      "id": 15
+    },
+    {
+      
+      "title": "monstera adansonii",
+      "description": "Culms are 1 centimetre (0.4 in) long while leaves are 21–42 centimetres (8.3–16.5 in) long and 0.5–1 centimetre (0.2–0.4 in) wide. The fruits are 1.5–1.8 centimetres (0.6–0.7 in) long and 0.7 centimetres (0.3 in) wide.",
+      "price": 2200,
+      "photo": "img/mike-marquez-082Z-3uTRAQ-unsplash.jpg",
+      "id": 16
+    },
+    {
+      "title": "cactus",
+      "description": "Cactus plants are a popular decorating trend, but they have additional benefits beyond adding some low-maintenance greenery to your home",
+      "price": 1990,
+      "photo": "img/fernando-lavin-qxAAvqECvew-unsplash.jpg",
+      "id": 17
+    },
+    {
+      "title": "ficus elastica",
+      "description": "It is a large tree in the banyan group of figs, growing to 30–40 metres (98–131 ft) (rarely up to 60 metres or 200 feet) tall, with a stout trunk up to 2 metres (6.6 ft) in diameter. The trunk develops aerial and buttressing roots to anchor it in the soil and help support heavy branches.",
+      "price": 1050,
+      "photo": "img/lauren-mancke-DpphPG9ENsI-unsplash.jpg",
+      "id": 18
+    },
+    {
+      "title": "echeveria",
+      "description": "Echeveria plants are rosette shaped plants of around 5cm in diameter. Echeverias often show interesting variations in colour, particularly during the cool winter months when colours can range from vibrant ruby reds to dusky pinks.",
+      "price": 440,
+      "photo": "img/yousef-espanioly-L6g30JaQ5Tc-unsplash.jpg",
+      "id": 19
+    },
+    {
+      "title": "monstera deliciosa",
+      "description": "It is a climbing, evergreen perennial vine that is perhaps most noted for its large perforated leaves on thick plant stems and its long cord-like aerial roots.",
+      "price": 1650,
+      "photo": "img/sylvie-tittel-CZkQy6xcUyA-unsplash.jpg",
+      "id": 20
+    },
+    {
+      "title": "peperomia",
+      "description": "Peperomia, genus of the pepper family (Piperaceae), comprising more than 1,000 species of tropical and subtropical fleshy herbs, annuals, and perennials. A few species are popular houseplants because of their attractive foliage.",
+      "price": 600,
+      "photo": "img/mike-marquez-9uKYLJVdKfI-unsplash.jpg",
+      "id": 21
+    },
+    {
+      "title": "ball cactus",
+      "description": "Cactus plants are a popular decorating trend, but they have additional benefits beyond adding some low-maintenance greenery to your home",
+      "price": 1750,
+      "photo": "img/anastasia-mezenina-HOcS8ymldm4-unsplash.jpg",
+      "id": 22
+    },
+    {
+      "title": "sansevieria",
+      "description": "here is great variation within the genus, and species range from succulent desert plants such as Sansevieria pinguicula to thinner leafed tropical plants such as Sansevieria trifasciata. Plants often form dense clumps from a spreading rhizome or stolons.",
+      "price": 6290,
+      "photo": "img/paul-hanaoka-0Qar87UXlGA-unsplash.jpg",
+      "id": 23
+    },
+    {
+      "title": "strawberry",
+      "description": "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit.",
+      "price": 150,
+      "photo": "img/annie-spratt-lRcoPGrwkv0-unsplash.jpg",
+      "id": 24
+    },
+    {
+      "title": "saguaro",
+      "description": "The saguaro is a columnar cactus that grows notable branches, usually referred to as arms. As many as 49 arms may grow on one plant. They grow from 3–16 m (9.8–52.5 ft) tall, and up to 75 cm (30 in) in diameter. They are slow growing but routinely live to 150 or 200 years old. They are the largest cactus in the United States",
+      "price": 2150,
+      "photo": "img/emma-steinhobel-KU7ZPWEJpQU-unsplash.jpg",
+      "id": 25
     }
   ]}

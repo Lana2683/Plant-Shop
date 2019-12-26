@@ -20,29 +20,35 @@
 </head>
 <body>
     <nav>
-        <a href="#" class="bars" id="bars" onclick="showMenu()">
-            <i class="fas fa-bars"></i>
-        </a>
-        <span class="brand">eden</span>
-        <span class="menu">
+        <div class="menu1">
+            <a href="#" class="bars" id="bars" onclick="showMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+            <span class="brand">eden</i></span>
             <span class="search">
                 <input class="search-input">
                 <i class="fas fa-search"></i>
             </span>
+            <span class="nav-cart">
+                <a href="#" class='cart' onclick="showCart()">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <span id='badge' class="badge"></span>
+            </span>
+        </div>
+        <div class="menu">
+            <a href="#">new</a>
             <a href="#">catalog</a>
+            <a href="#">accessories</a>
+            <a href="#">sale</a>
+            <a href="#">about us</a>
+            <a href="#">delivery</a>
+            <a href="#">payment</a>
             <a href="#">contacts</a>
-        </span>
-        <span class="nav-cart">
-            <a href="#" class='cart' onclick="showCart()">
-                <i class="fas fa-shopping-cart"></i>
-            </a>
-            <span id='badge' class="badge"></span>
-        </span>
+            <a href="#">careers</a>
+            <a href="#">services</a>
+        </div>
     </nav>
-    <div class="menu-bar" id="menu-bar">
-        <a href="#">catalog</a>
-        <a href="#">contacts</a>
-    </div>
     <div id="cart" class="modal-cart">
         <div class="cart-content" >
             <span class="cart-header">
@@ -57,6 +63,19 @@
                 <button class="total-price-btn">buy</button>
             </span>
         </div>
+    </div>
+    <div class="menu-bar" id="menu-bar">
+        <a href="#" class="close-bar" onclick="closeMenu()">&times;</a>
+        <a href="#">new</a>
+        <a href="#">catalog</a>
+        <a href="#">accessories</a>
+        <a href="#">sale</a>
+        <a href="#">about us</a>
+        <a href="#">delivery</a>
+        <a href="#">payment</a>
+        <a href="#">contacts</a>
+        <a href="#">careers</a>
+        <a href="#">services</a>
     </div>
     <div class="container">
         <div class="carousel" id="carousel">
