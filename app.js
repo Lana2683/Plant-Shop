@@ -10,7 +10,7 @@ const carouselSlides = document.getElementById('carousel');
       plantModal = document.getElementById('plant-modal');
       pagination = document.getElementById('pagination');
 
-function getPlants(min=0, max=9) {
+function getPlants(min=0, max=9, onload=1) {
   fetch('http://localhost:3000/plants')
   .then(function(res){
     return res.json();
@@ -37,7 +37,7 @@ function getPlants(min=0, max=9) {
       `;
     })
     catalog.innerHTML = output;
-    min!==0?pagination.scrollIntoView():null
+    onload!==1?pagination.scrollIntoView():null
   })
   .catch(function(err){
     console.log(err);
@@ -68,7 +68,7 @@ function getPages() {
 function showPage(page) {
   let max = page*8+1;
   let min = page*8-8;
-  getPlants(min, max);
+  getPlants(min, max, onload=0);
 }
 
 function checkPage(max) {
