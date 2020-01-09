@@ -1,22 +1,25 @@
-document.addEventListener('DOMContentLoaded', getPlantsFromLS, getPlants(),calculateBadge, carousel);
+document.addEventListener('DOMContentLoaded', getPlantsFromLS, getPlants(), calculateBadge, carousel, getPages());
 
-const carouselSlides = document.getElementById("carousel");
-      slide = document.getElementsByClassName("slides");
-      bar = document.getElementById("bars");
-      menuBar = document.getElementById("menu-bar");
+const carouselSlides = document.getElementById('carousel');
+      catalog = document.getElementById('catalog');
+      slide = document.getElementsByClassName('slides');
+      bar = document.getElementById('bars');
+      menuBar = document.getElementById('menu-bar');
       total = document.getElementById('total');
       badge = document.getElementById('badge');
-      plantModal = document.getElementById('plant-modal')
+      plantModal = document.getElementById('plant-modal');
+      pagination = document.getElementById('pagination');
 
-function getPlants() {
+function getPlants(min=0, max=9) {
   fetch('http://localhost:3000/plants')
   .then(function(res){
     return res.json();
   })
   .then(function(data) {
     let output = '';
-    data.forEach(function(plant) {
-      output += 
+    let plants = data.filter(plant => plant.id > min && plant.id < max)
+    plants.map(function(plant) {
+     output += 
       `<section class="product">
           <div class='prod-main'>
             <img class='prodimg' 
@@ -30,14 +33,56 @@ function getPlants() {
           <button class='btn-add' onclick='addInCart(${plant.id}, event)'>
             add
           </button>
-      </section>`;
-    });
-    document.getElementById('catalog').innerHTML = output;
+      </section>
+      `;
+    })
+    catalog.innerHTML = output;
   })
   .catch(function(err){
     console.log(err);
   });
+  checkPage(max)
   }
+
+//PAGINATION START 
+function getPages() {
+  fetch('http://localhost:3000/plants')
+  .then(function(res){
+    return res.json();
+  })
+  .then(function(data) {
+    let num = Math.ceil(data.length/8);
+    let pages=[]
+    for(let i=1; i<=num; i++){
+    pages.push(i)
+    }
+    pages.map(function(page){
+      pagination.innerHTML+=`<a href="#" id='${page}' class='page-number' onclick='showPage(${page}, event)'>${page}</a>`;
+      let number = document.getElementsByClassName('page-number');
+      number[0].classList.add('active')
+    })
+  })
+} 
+
+function showPage(page) {
+  let max =page*8+1;
+  let min = page*8-8;
+  getPlants(min, max);
+}
+
+function checkPage(max) {
+  let number = document.getElementsByClassName('page-number');
+  let num = Math.floor(max/8);
+  let a = document.getElementById(`${num}`);
+  if(a === null){a=1};
+  if(a.classList !== undefined){
+    for(let i = 0; i < number.length; i++) {
+      number[i].classList.remove('active')
+    }
+    a.classList.add("active")
+  }
+}
+// PAGINATION END
 
 // CAROUSEL START
 let index = 0,

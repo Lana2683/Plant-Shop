@@ -548,6 +548,25 @@ text-decoration: none;
 }
 /* MODAL CART END */
 
+/* PAGINATION START */
+.pagination a{
+  text-decoration: none;
+  padding: 2px;
+  margin: 2px;
+}
+
+.pagination a:hover {
+  background-color: #45454d73;
+  color: white;
+  border-radius: 2px;
+}
+
+.active {
+  background-color: #45454d73;
+  color: white;
+  border-radius: 2px;
+}
+
 @media (max-width: 1300px) {
   .cart-content{
     width: 60%;
