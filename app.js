@@ -37,7 +37,7 @@ function getPlants(min=0, max=9) {
       `;
     })
     catalog.innerHTML = output;
-    pagination.scrollIntoView()
+    min!==0?pagination.scrollIntoView():null
   })
   .catch(function(err){
     console.log(err);
