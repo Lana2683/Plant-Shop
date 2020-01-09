@@ -37,6 +37,7 @@ function getPlants(min=0, max=9) {
       `;
     })
     catalog.innerHTML = output;
+    pagination.scrollIntoView()
   })
   .catch(function(err){
     console.log(err);
@@ -65,21 +66,21 @@ function getPages() {
 } 
 
 function showPage(page) {
-  let max =page*8+1;
+  let max = page*8+1;
   let min = page*8-8;
   getPlants(min, max);
 }
 
 function checkPage(max) {
-  let number = document.getElementsByClassName('page-number');
+  let numbers = document.getElementsByClassName('page-number');
   let num = Math.floor(max/8);
   let a = document.getElementById(`${num}`);
   if(a === null){a=1};
   if(a.classList !== undefined){
-    for(let i = 0; i < number.length; i++) {
-      number[i].classList.remove('active')
+    for(let i = 0; i < numbers.length; i++) {
+      numbers[i].classList.remove('active');
     }
-    a.classList.add("active")
+    a.classList.add("active");
   }
 }
 // PAGINATION END
